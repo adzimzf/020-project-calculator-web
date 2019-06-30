@@ -1,0 +1,73 @@
+
+body {
+    background-image: url(./images/background.png);
+}
+h1 {
+    text-align: center;
+}
+.calculator {
+    width: 400px;
+    background: #eaeaea;
+    margin: 50px auto 0 auto;
+    padding: 7px;
+    border-radius: 10px;
+}
+#screen {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #cecece;
+    font-size: 40px;
+    font-weight: bold;
+    color: grey;
+    padding: 7px 5px;
+    outline: none;
+    text-align: right;
+    border-radius: 10px;
+}
+
+.containerButton {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: flex;
+    width: 25%;
+    font-size: 30px;
+    font-weight: bold;
+    height: 70px;
+    color: grey;
+    border: 1px solid #cecece;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    border-top: none;
+    border-left: none;
+    border-radius: 10px;
+}
+
+.button:nth-child(4n+1) {
+    border-left: 1px solid #cecece;
+}
+
+.button:hover {
+    background: #e4e4e4;
+    cursor:pointer;
+}
+
+#colZero {
+    flex-grow: 1;
+}
+
+.operator {
+    background: #d8d8d8;
+}
+
+#result {
+    background: yellow;
+    color: white;
+}
+
+#result:hover {
+    background: orange;
+}
