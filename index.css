@@ -59,6 +59,9 @@ h1 {
     flex-grow: 1;
 }
 
+.coma {
+    background: #d8d8d8;
+}
 .operator {
     background: #d8d8d8;
 }
