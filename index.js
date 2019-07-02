@@ -24,10 +24,10 @@ button.addEventListener('click', function(e) {
 
 function hitung(str) {
     if (str.includes('*')) {
-        a = parseFloat(getAwal(str, '*'))
-        k = parseFloat(getAkhir(str, '*'))
-        h = a * k
-        return hitung(str.replace(a.toString() + "*" + k.toString(), h.toString()))
+        awal = parseFloat(getAwal(str, '*'))
+        akhir = parseFloat(getAkhir(str, '*'))
+        hasih = awal * akhir
+        return hitung(str.replace(awal.toString() + "*" + akhir.toString(), hasil.toString()))
     }
     if (str.includes('/')) {
         a = parseFloat(getAwal(str, '/'))
